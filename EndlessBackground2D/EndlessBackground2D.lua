@@ -109,10 +109,7 @@ function EndlessBackground2D:moveBy(x,y)
 			end
 		
 		end
-		if(y > 50) then
-		
-			print(y)
-		end
+
 		if( y > 0) then
 		
 			if(self:getY() + y  > 0) then
